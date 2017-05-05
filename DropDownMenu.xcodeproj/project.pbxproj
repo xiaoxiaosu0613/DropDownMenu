@@ -15,6 +15,9 @@
 		3B33E5971EB071B0005B6058 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B33E5951EB071B0005B6058 /* LaunchScreen.storyboard */; };
 		3B33E5A21EB071B0005B6058 /* DropDownMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B33E5A11EB071B0005B6058 /* DropDownMenuTests.m */; };
 		3B33E5AD1EB071B0005B6058 /* DropDownMenuUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B33E5AC1EB071B0005B6058 /* DropDownMenuUITests.m */; };
+		3B33E5C01EB07933005B6058 /* DropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B33E5BF1EB07933005B6058 /* DropDownMenu.m */; };
+		3B649F0F1EB88CC5008CDD6B /* UIView+DropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B649F0E1EB88CC5008CDD6B /* UIView+DropDownMenu.m */; };
+		6A1856536E2C9026A1AB8982 /* Pods_DropDownMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 742A9D4668C8430B4F384EEF /* Pods_DropDownMenu.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		242157F7D08E4C275FDB3F54 /* Pods-DropDownMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DropDownMenu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DropDownMenu/Pods-DropDownMenu.debug.xcconfig"; sourceTree = "<group>"; };
 		3B33E5841EB071B0005B6058 /* DropDownMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DropDownMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B33E5881EB071B0005B6058 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3B33E58A1EB071B0005B6058 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +55,13 @@
 		3B33E5A81EB071B0005B6058 /* DropDownMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropDownMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B33E5AC1EB071B0005B6058 /* DropDownMenuUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DropDownMenuUITests.m; sourceTree = "<group>"; };
 		3B33E5AE1EB071B0005B6058 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B33E5BE1EB07933005B6058 /* DropDownMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropDownMenu.h; sourceTree = "<group>"; };
+		3B33E5BF1EB07933005B6058 /* DropDownMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropDownMenu.m; sourceTree = "<group>"; };
+		3B53AF691EB1E84B00ED3647 /* DropDownMenuConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DropDownMenuConfig.h; sourceTree = "<group>"; };
+		3B649F0D1EB88CC5008CDD6B /* UIView+DropDownMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DropDownMenu.h"; sourceTree = "<group>"; };
+		3B649F0E1EB88CC5008CDD6B /* UIView+DropDownMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DropDownMenu.m"; sourceTree = "<group>"; };
+		533F950284A3FBD742070D73 /* Pods-DropDownMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DropDownMenu.release.xcconfig"; path = "Pods/Target Support Files/Pods-DropDownMenu/Pods-DropDownMenu.release.xcconfig"; sourceTree = "<group>"; };
+		742A9D4668C8430B4F384EEF /* Pods_DropDownMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DropDownMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A1856536E2C9026A1AB8982 /* Pods_DropDownMenu.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +97,8 @@
 				3B33E5A01EB071B0005B6058 /* DropDownMenuTests */,
 				3B33E5AB1EB071B0005B6058 /* DropDownMenuUITests */,
 				3B33E5851EB071B0005B6058 /* Products */,
+				FFF6EFE146AFB9A5AE288D83 /* Pods */,
+				B27C67494419FE4857C08709 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +115,7 @@
 		3B33E5861EB071B0005B6058 /* DropDownMenu */ = {
 			isa = PBXGroup;
 			children = (
+				3B33E5BA1EB0722C005B6058 /* DropDownMenu */,
 				3B33E58A1EB071B0005B6058 /* AppDelegate.h */,
 				3B33E58B1EB071B0005B6058 /* AppDelegate.m */,
 				3B33E58D1EB071B0005B6058 /* ViewController.h */,
@@ -140,6 +155,35 @@
 			path = DropDownMenuUITests;
 			sourceTree = "<group>";
 		};
+		3B33E5BA1EB0722C005B6058 /* DropDownMenu */ = {
+			isa = PBXGroup;
+			children = (
+				3B33E5BE1EB07933005B6058 /* DropDownMenu.h */,
+				3B33E5BF1EB07933005B6058 /* DropDownMenu.m */,
+				3B53AF691EB1E84B00ED3647 /* DropDownMenuConfig.h */,
+				3B649F0D1EB88CC5008CDD6B /* UIView+DropDownMenu.h */,
+				3B649F0E1EB88CC5008CDD6B /* UIView+DropDownMenu.m */,
+			);
+			path = DropDownMenu;
+			sourceTree = "<group>";
+		};
+		B27C67494419FE4857C08709 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				742A9D4668C8430B4F384EEF /* Pods_DropDownMenu.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FFF6EFE146AFB9A5AE288D83 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				242157F7D08E4C275FDB3F54 /* Pods-DropDownMenu.debug.xcconfig */,
+				533F950284A3FBD742070D73 /* Pods-DropDownMenu.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +191,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B33E5B11EB071B0005B6058 /* Build configuration list for PBXNativeTarget "DropDownMenu" */;
 			buildPhases = (
+				FA5D96E19D47C7B3DF07FE9C /* [CP] Check Pods Manifest.lock */,
 				3B33E5801EB071B0005B6058 /* Sources */,
 				3B33E5811EB071B0005B6058 /* Frameworks */,
 				3B33E5821EB071B0005B6058 /* Resources */,
+				191127CB6D70A3DAAC8D2674 /* [CP] Embed Pods Frameworks */,
+				FA4160FD7918C486348A304B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,7 +254,7 @@
 				TargetAttributes = {
 					3B33E5831EB071B0005B6058 = {
 						CreatedOnToolsVersion = 8.3;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					3B33E59C1EB071B0005B6058 = {
 						CreatedOnToolsVersion = 8.3;
@@ -268,13 +315,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		191127CB6D70A3DAAC8D2674 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DropDownMenu/Pods-DropDownMenu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA4160FD7918C486348A304B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DropDownMenu/Pods-DropDownMenu-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA5D96E19D47C7B3DF07FE9C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3B33E5801EB071B0005B6058 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B33E5C01EB07933005B6058 /* DropDownMenu.m in Sources */,
 				3B33E58F1EB071B0005B6058 /* ViewController.m in Sources */,
 				3B33E58C1EB071B0005B6058 /* AppDelegate.m in Sources */,
+				3B649F0F1EB88CC5008CDD6B /* UIView+DropDownMenu.m in Sources */,
 				3B33E5891EB071B0005B6058 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,23 +519,29 @@
 		};
 		3B33E5B21EB071B0005B6058 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 242157F7D08E4C275FDB3F54 /* Pods-DropDownMenu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = DropDownMenu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rainbow-works.DropDownMenu";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
 		3B33E5B31EB071B0005B6058 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 533F950284A3FBD742070D73 /* Pods-DropDownMenu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = DropDownMenu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rainbow-works.DropDownMenu";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
@@ -507,6 +610,7 @@
 				3B33E5B31EB071B0005B6058 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B33E5B41EB071B0005B6058 /* Build configuration list for PBXNativeTarget "DropDownMenuTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +619,7 @@
 				3B33E5B61EB071B0005B6058 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B33E5B71EB071B0005B6058 /* Build configuration list for PBXNativeTarget "DropDownMenuUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +628,7 @@
 				3B33E5B91EB071B0005B6058 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
